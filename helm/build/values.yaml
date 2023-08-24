@@ -1,0 +1,15 @@
+app:
+  name: mojomayhem-poi-map-app
+  namespace: mojomayhem
+  cluster: .apps.j0i9yf30.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-atl/mojomayhem-frontend
+  org: rhdh-atl
+  name: mojomayhem-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: mojomayhem/poi-map-app
+  tag: latest
